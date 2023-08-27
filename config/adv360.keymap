@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp HOME                                                            &kp PG_UP   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G             &kp END  &kp LCTRL  &kp LALT                  &kp LGUI  &kp RCTRL  &kp PG_DN   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                    &mo 5                     &mo 4                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL     &mo 5                     &mo 4  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                   &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp HOME                                                               &kp PG_UP   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G             &kp END  &kp LCTRL    &kp LALT                   &kp LGUI  &kp RCTRL  &kp PG_DN   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                      &mo 5                      &mo 4                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp LSHIFT                  &kp LSHFT  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -79,21 +79,21 @@
 
         layer_PLITERKI {
             bindings = <
- &trans      &trans      &trans      &trans     &trans  &trans            &trans                                                  &trans      &trans         &trans     &trans      &trans    &trans  &trans
- &trans      &trans      &trans  &mt RALT E     &trans  &trans            &trans                                                  &trans      &trans  &kp BACKSLASH  &kp MINUS  &mt RALT O    &trans  &trans
- &trans  &mt RALT A  &mt RALT S    &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &trans         &kp UP   &kp DOWN  &mt RALT L  &kp APOS  &trans
- &trans  &mt RALT Z  &mt RALT X  &mt RALT C     &trans  &trans                            &trans                  &trans                  &mt RALT N         &trans     &trans      &trans    &trans  &trans
- &trans      &trans      &trans      &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                     &trans     &trans      &trans    &trans  &trans
+ &trans      &trans      &trans      &trans     &trans  &trans            &trans                                                  &trans      &trans  &trans    &trans      &trans    &trans  &trans
+ &trans      &trans      &trans  &mt RALT E     &trans  &trans            &trans                                                  &trans      &trans  &trans    &trans  &mt RALT O    &trans  &trans
+ &trans  &mt RALT A  &mt RALT S    &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &trans  &kp UP  &kp DOWN  &mt RALT L  &kp APOS  &trans
+ &trans  &mt RALT Z  &mt RALT X  &mt RALT C     &trans  &trans                            &trans                  &trans                  &mt RALT N  &trans    &trans      &trans    &trans  &trans
+ &trans      &trans      &trans      &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans              &trans    &trans      &trans    &trans  &trans
             >;
         };
 
         layer_FUNKCJE {
             bindings = <
- &trans  &trans   &trans             &trans               &trans  &trans            &trans                                                  &trans  &trans            &trans    &trans     &trans    &trans  &trans
- &trans  &trans  &kp F12  &macro_vs_comment  &macro_vs_uncomment  &trans            &trans                                                  &trans  &trans  &kp LEFT_BRACKET  &kp RBKT  &kp EQUAL    &trans  &trans
- &trans  &kp F5   &kp F9            &kp F10              &kp F11  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans          &kp LPAR  &kp RPAR   &kp LBRC  &kp RBRC  &trans
- &trans  &kp F2   &trans             &trans               &trans  &trans                            &trans                  &trans                  &trans            &trans    &trans     &trans    &trans  &trans
- &trans  &trans   &trans             &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                    &trans    &trans     &trans    &trans  &trans
+ &trans  &trans   &trans             &trans               &trans  &trans            &trans                                                  &trans         &trans            &trans    &trans     &trans     &trans  &trans
+ &trans  &kp F1  &kp F12  &macro_vs_comment  &macro_vs_uncomment  &trans            &trans                                                  &trans         &trans  &kp LEFT_BRACKET  &kp RBKT  &kp EQUAL  &kp MINUS  &trans
+ &trans  &kp F5   &kp F9            &kp F10              &kp F11  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp BACKSLASH          &kp LPAR  &kp RPAR   &kp LBRC   &kp RBRC  &trans
+ &trans  &kp F2   &kp F6             &kp F7               &kp F8  &trans                            &trans                  &trans                         &trans          &kp APOS    &trans     &trans     &trans  &trans
+ &trans  &trans   &trans             &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                           &trans    &trans     &trans     &trans  &trans
             >;
         };
 
