@@ -89,11 +89,11 @@
 
         layer_FUNKCJE {
             bindings = <
- &trans  &trans   &trans             &trans               &trans  &trans            &trans                                                  &trans         &trans            &trans    &trans     &trans     &trans  &trans
- &trans  &kp F1  &kp F12  &macro_vs_comment  &macro_vs_uncomment  &trans            &trans                                                  &trans         &trans  &kp LEFT_BRACKET  &kp RBKT  &kp EQUAL  &kp MINUS  &trans
- &trans  &kp F5   &kp F9            &kp F10              &kp F11  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp BACKSLASH          &kp LPAR  &kp RPAR   &kp LBRC   &kp RBRC  &trans
- &trans  &kp F2   &kp F6             &kp F7               &kp F8  &trans                            &trans                  &trans                         &trans          &kp APOS    &trans     &trans     &trans  &trans
- &trans  &trans   &trans             &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                           &trans    &trans     &trans     &trans  &trans
+ &trans  &trans   &trans             &trans               &trans  &trans            &trans                                                  &trans             &trans            &trans          &trans     &trans     &trans  &trans
+ &trans  &kp F1  &kp F12  &macro_vs_comment  &macro_vs_uncomment  &trans            &trans                                                  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET        &kp RBKT  &kp EQUAL  &kp MINUS  &trans
+ &trans  &kp F5   &kp F9            &kp F10              &kp F11  &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &kp BACKSLASH          &kp LPAR        &kp RPAR   &kp LBRC   &kp RBRC  &trans
+ &trans  &kp F2   &kp F6             &kp F7               &kp F8  &trans                            &trans                  &trans                             &trans          &kp APOS  &kp UNDERSCORE   &kp PLUS   &kp PIPE  &trans
+ &trans  &trans   &trans             &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                               &trans          &trans     &trans     &trans  &trans
             >;
         };
 
