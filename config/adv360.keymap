@@ -80,9 +80,9 @@
         layer_PLITERKI {
             bindings = <
  &trans     &trans     &trans     &trans     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans     &trans    &trans  &trans
- &trans     &trans     &trans  &kp LR(E)     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans  &kp LR(O)    &trans  &trans
- &trans  &kp LR(A)  &kp LR(S)   &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans  &kp UP  &kp DOWN  &kp LR(L)  &kp APOS  &trans
- &trans  &kp LR(Z)  &kp LR(X)  &kp LR(C)     &trans  &trans                            &trans                  &trans                  &kp LR(N)  &trans    &trans     &trans    &trans  &trans
+ &trans     &trans     &trans  &kp RA(E)     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans  &kp RA(O)    &trans  &trans
+ &trans  &kp RA(A)  &kp RA(S)   &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans  &kp UP  &kp DOWN  &kp RA(L)  &kp APOS  &trans
+ &trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)     &trans  &trans                            &trans                  &trans                  &kp RA(N)  &trans    &trans     &trans    &trans  &trans
  &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans    &trans     &trans    &trans  &trans
             >;
         };
