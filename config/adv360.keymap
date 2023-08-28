@@ -79,11 +79,11 @@
 
         layer_PLITERKI {
             bindings = <
- &trans      &trans      &trans      &trans     &trans  &trans            &trans                                                  &trans      &trans  &trans    &trans      &trans    &trans  &trans
- &trans      &trans      &trans  &mt RALT E     &trans  &trans            &trans                                                  &trans      &trans  &trans    &trans  &mt RALT O    &trans  &trans
- &trans  &mt RALT A  &mt RALT S    &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &trans  &kp UP  &kp DOWN  &mt RALT L  &kp APOS  &trans
- &trans  &mt RALT Z  &mt RALT X  &mt RALT C     &trans  &trans                            &trans                  &trans                  &mt RALT N  &trans    &trans      &trans    &trans  &trans
- &trans      &trans      &trans      &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans              &trans    &trans      &trans    &trans  &trans
+ &trans     &trans     &trans     &trans     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans     &trans    &trans  &trans
+ &trans     &trans     &trans  &kp LR(E)     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans  &kp LR(O)    &trans  &trans
+ &trans  &kp LR(A)  &kp LR(S)   &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans  &kp UP  &kp DOWN  &kp LR(L)  &kp APOS  &trans
+ &trans  &kp LR(Z)  &kp LR(X)  &kp LR(C)     &trans  &trans                            &trans                  &trans                  &kp LR(N)  &trans    &trans     &trans    &trans  &trans
+ &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans    &trans     &trans    &trans  &trans
             >;
         };
 
