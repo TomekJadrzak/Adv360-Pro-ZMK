@@ -79,11 +79,11 @@
 
         layer_PLITERKI {
             bindings = <
- &trans     &trans     &trans     &trans     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans     &trans    &trans  &trans
- &trans     &trans     &trans  &kp RA(E)     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans  &kp RA(O)    &trans  &trans
- &trans  &kp RA(A)  &kp RA(S)   &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans  &kp UP  &kp DOWN  &kp RA(L)  &kp APOS  &trans
- &trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)     &trans  &trans                            &trans                  &trans                  &kp RA(N)  &trans    &trans     &trans    &trans  &trans
- &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans    &trans     &trans    &trans  &trans
+ &trans     &trans     &trans     &trans     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans     &trans        &trans  &trans
+ &trans     &trans     &trans  &kp RA(E)     &trans  &trans            &trans                                                  &trans     &trans  &trans    &trans  &kp RA(O)        &trans  &trans
+ &trans  &kp RA(A)  &kp RA(S)   &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &trans  &kp UP  &kp DOWN  &kp RA(L)  &kp QUESTION  &trans
+ &trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)     &trans  &trans                            &trans                  &trans                  &kp RA(N)  &trans    &trans     &trans        &trans  &trans
+ &trans     &trans     &trans     &trans     &trans                    &trans  &trans  &trans                  &trans  &trans  &trans             &trans    &trans     &trans        &trans  &trans
             >;
         };
 
@@ -92,7 +92,7 @@
  &trans  &trans   &trans             &trans               &trans            &trans            &trans                                                  &trans             &trans            &trans          &trans     &trans     &trans  &trans
  &trans  &kp F1  &kp F12  &macro_vs_comment  &macro_vs_uncomment  &macro_vs_format            &trans                                                  &trans  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET        &kp RBKT  &kp EQUAL  &kp MINUS  &trans
  &trans  &kp F5   &kp F9            &kp F10              &kp F11            &kp F4            &trans  &trans  &trans                  &trans  &trans  &trans      &kp BACKSLASH          &kp LPAR        &kp RPAR   &kp LBRC   &kp RBRC  &trans
- &trans  &kp F2   &kp F6             &kp F7               &kp F8            &kp F3                            &trans                  &trans                             &trans          &kp APOS  &kp UNDERSCORE   &kp PLUS   &kp PIPE  &trans
+ &trans  &kp F2   &kp F6             &kp F7               &kp F8            &kp F3                            &trans                  &trans                          &kp SLASH      &kp QUESTION  &kp UNDERSCORE   &kp PLUS   &kp PIPE  &trans
  &trans  &trans   &trans             &trans               &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                               &trans          &trans     &trans     &trans  &trans
             >;
         };
