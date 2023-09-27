@@ -100,7 +100,7 @@
         layer_NAV {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                            &trans      &trans    &trans     &trans     &trans     &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                            &trans      &trans    &trans     &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                            &trans      &trans     &kp P     &trans     &trans     &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans         &trans     &trans  &kp LSHIFT  &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                            &kp INSERT  &kp HOME  &kp PG_DN  &kp PG_UP    &kp END  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp BACKSPACE  &kp SPACE                &trans     &trans     &trans     &trans  &trans
